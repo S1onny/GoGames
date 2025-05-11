@@ -6,7 +6,8 @@
         "**/*.md",
         "**/*.json",
         ".eslintrc.cjs",
-        "vite.config.js"
+        "vite.config.js",
+        "./src/scss/base/normalize.scss"
     ],
     "rules": {
         "declaration-empty-line-before": "never",

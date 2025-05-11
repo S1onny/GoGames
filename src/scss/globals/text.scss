@@ -1,0 +1,40 @@
+.heading {
+    &-h2 {
+        font-weight: 700;
+        font-size: 68px;
+        line-height: 75px;
+    }
+
+    &-h3 {
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 32px;
+    }
+
+    &-h4 {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 32px;
+    }
+
+    &-h5 {
+        font-weight: 700;
+        font-size: 23px;
+    }
+}
+
+.text {
+    &-p {
+        &-normal {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 25px;
+        }
+
+        &-small {
+            font-weight: 500;
+            font-size: 10px;
+            line-height: 12px;
+        }
+    }
+}
