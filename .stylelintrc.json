@@ -5,7 +5,8 @@
         "**/*.js",
         "**/*.md",
         "**/*.json",
-        ".eslintrc.cjs"
+        ".eslintrc.cjs",
+        "vite.config.js"
     ],
     "rules": {
         "declaration-empty-line-before": "never",
