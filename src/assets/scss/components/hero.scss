@@ -1,0 +1,129 @@
+$color: white;
+
+.hero {
+    position: relative;
+    padding: 70px 0 90px;
+    height: 90vh;
+
+    &__inner {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        color: var(--purple-color);
+
+        &-crossdot {
+            position: absolute;
+            left: -3%;
+            opacity: 0.4;
+        }
+
+        &-cross {
+            position: absolute;
+            bottom: 7%;
+            left: 33%;
+            opacity: 0.4;
+        }
+
+        &-dots {
+            position: absolute;
+            right: 8%;
+        }
+
+        &-left {
+            display: flex;
+            gap: 30px;
+            flex-direction: column;
+            align-items: left;
+            justify-content: center;
+            max-width: 45%;
+
+            &-containerforarrows {
+                display: flex;
+                flex-direction: row;
+            }
+
+            &-subtitle {
+                &-arrows {
+                    display: flex;
+                    gap: 4px;
+                    padding-left: 30px;
+                    opacity: 0.4;
+                }
+            }
+
+            &-title {
+                color: var(--peach-color);
+
+                &--black {
+                    color: var(--blue-color);
+                }
+            }
+        }
+
+        &-right {
+            position: relative;
+
+            &-img {
+                width: 568px;
+                height: 584px;
+            }
+
+            &-banner {
+                display: flex;
+                gap: 10px;
+                border-radius: 10px;
+                padding: 13px 16px;
+                background: rgba($color, 0.4);
+
+                &-text {
+                    display: flex;
+                    gap: 5px;
+                    flex-direction: column;
+                    max-width: 100px;
+                }
+
+                &-rate {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    &-star {
+                        width: 6.8px;
+                        height: 6.4px;
+                    }
+
+                    &-descr {
+                        font-size: 8px;
+                    }
+                }
+
+                &-price {
+                    color: var(--peach-color);
+                }
+
+                &-svg {
+                    width: auto;
+                    height: 100%;
+                }
+
+                &-first {
+                    position: absolute;
+                    top: 0;
+                    left: -10%;
+                }
+
+                &-second {
+                    position: absolute;
+                    right: -25%;
+                    bottom: 0;
+                }
+            }
+        }
+    }
+}
+
+.stars {
+    display: flex;
+    gap: 4px;
+}

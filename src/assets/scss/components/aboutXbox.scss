@@ -1,0 +1,44 @@
+.aboutxbox {
+    position: relative;
+    
+    &__inner {
+        display: flex;
+        gap: 100px;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        color: var(--purple-color);
+
+        &-left {
+            position: relative;
+            display: flex;
+            gap: 30px;
+            flex-direction: column;
+            max-width: 50%;
+
+            &-arrows {
+                position: absolute;
+                right: 20%;
+                bottom: 15%;
+                opacity: 0.4;
+                transform: rotate(180deg);
+            }
+        }
+
+        &-right {
+            position: relative;
+
+            &-gearsmall {
+                position: absolute;
+                top: 18%;
+                right: 45%;
+            }
+
+            &-gearbig {
+                position: absolute;
+                top: 0;
+                right: 20%;
+            }
+        }
+    }
+}

@@ -1,0 +1,83 @@
+.header-hero-bg {
+    position: relative;
+    background: linear-gradient(#eeba9c66, #f5d5c366);
+}
+
+.background {
+    &__1sec {
+        position: absolute;
+        left: 0;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        background-image: url('../images/sec1.jpeg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        opacity: 0.05;
+    }
+
+    &__3sec {
+        position: absolute;
+        left: 0;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        background-image: url('../images/sec3.jpeg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        opacity: 0.05;
+    }
+}
+
+.logo {
+    object-fit: contain;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    max-width: 180px;
+    background: linear-gradient(to right, #4499d9, #7367be);
+
+    &__pricing {
+        max-width: none;
+    }
+
+    &__link {
+        display: block;
+        padding: 13px 20px;
+        color: #fff;
+        
+        &-pricing {
+            padding: 13px 74px;
+        }
+    }
+}
+
+.header {
+    &__inner {
+        position: sticky;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 10vh;
+
+        &-right {
+            display: flex;
+            gap: 55px;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    &__nav {
+        display: flex;
+        gap: 15px;
+
+        &-item {
+            color: var(--purple-color);
+        }
+    }
+}

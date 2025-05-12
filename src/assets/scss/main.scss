@@ -1,2 +1,11 @@
 @import './mixins';
 @import './base';
+@import './globals';
+
+// components //
+@import './components/header';
+@import './components/hero';
+@import './components/aboutVR';
+@import './components/aboutXbox';
+@import './components/pricing';
+@import './components/footer';
