@@ -30,6 +30,7 @@
 }
 
 .logo {
+    width: 19.86vw;
     object-fit: contain;
 }
 
@@ -37,8 +38,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 25px;
-    max-width: 180px;
+    border-radius: 1.73vw;
+    max-width: 12.5vw;
     background: linear-gradient(to right, #4499d9, #7367be);
 
     &__pricing {
@@ -47,11 +48,11 @@
 
     &__link {
         display: block;
-        padding: 13px 20px;
+        padding: 0.9vw 1.4vw;
         color: #fff;
         
         &-pricing {
-            padding: 13px 74px;
+            padding: 0.9vw 5.1vw;
         }
     }
 }
@@ -62,11 +63,11 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        height: 10vh;
+        height: 12vh;
 
         &-right {
             display: flex;
-            gap: 55px;
+            gap: 3.8vw;
             align-items: center;
             justify-content: center;
         }
@@ -74,7 +75,7 @@
 
     &__nav {
         display: flex;
-        gap: 15px;
+        gap: 1.04vw;
 
         &-item {
             color: var(--purple-color);
